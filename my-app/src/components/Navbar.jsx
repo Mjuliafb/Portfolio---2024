@@ -7,7 +7,7 @@ export const Navbar = () => {
       <nav className="navbar navbar-expand-sm bg-body-tertiary">
         <div className="container">
           <a className="navbar-brand" href="#">
-            🦩
+            🦩 MJ
           </a>
           <button
             className="navbar-toggler"
