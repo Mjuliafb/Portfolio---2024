@@ -1,0 +1,12 @@
+.parallaxImgHeader {
+  /* background-image: url(my-app/src/assets/fondoheader2.jpg); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  width: auto;
+  max-width: 100%;
+  position: relative;
+  align-items: center;
+}
