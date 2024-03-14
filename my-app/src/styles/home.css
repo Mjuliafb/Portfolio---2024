@@ -1,0 +1,238 @@
+/* TODO:CHECK ALL THE STYLES AND CREATE AN CSS FOR EACH COMPONENT */
+.internalText {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: 10%;
+  position: relative;
+  text-align: center;
+  top: 40%;
+  width: 80%;
+}
+
+.parallax .parallaxImgHeader h2 span {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.technologies .technologiesLearned .card img {
+  width: 30px;
+  height: 30px;
+}
+
+.technologies .futureTechnologies .card img {
+  width: 30px;
+  height: 30px;
+}
+
+.imgParagraph {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.pinkSpan {
+  color: #f2059f;
+  font-weight: 600;
+}
+
+.portfolioTechs {
+  width: 30px;
+  height: 30px;
+  margin: 0px 3px 0px 3px;
+}
+
+.portfolioPreview {
+  width: 200px;
+  height: auto;
+}
+
+.newsCard {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+figure img {
+  display: block;
+  object-fit: cover !important;
+  object-position: center center !important;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  background: rgb(40, 26, 54);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(40, 26, 54, 1) 0%,
+    rgba(89, 59, 116, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(40, 26, 54, 1) 0%,
+    rgba(89, 59, 116, 0) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(40, 26, 54, 1) 0%,
+    rgba(89, 59, 116, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#281a36", endColorstr="#593b74", GradientType=1);
+  display: block;
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  z-index: 3;
+}
+
+.newsCaption {
+  position: absolute;
+  top: auto;
+  bottom: 31px;
+  left: 0;
+  width: 100%;
+  height: 35%;
+  z-index: 10;
+  padding: 15px;
+  -webkit-transform: translateY(80%);
+  transform: translateY(80%);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+.newsCaption i {
+  font-size: 24px;
+}
+
+.newsCaption-title {
+  margin-top: 0px;
+}
+
+.newsCaption-content {
+  margin: 0;
+}
+*/ .newsCaption-link {
+  color: #fff;
+  text-decoration: underline;
+  opacity: 0.8;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+  transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.news-Slide-up:hover .overlay {
+  background: #100459;
+  background: -moz-linear-gradient(0deg, #0583f2 0%, rgba(89, 59, 116, 0) 100%);
+  background: -webkit-linear-gradient(
+    0deg,
+    #0583f2 0%,
+    rgba(89, 59, 116, 0) 100%
+  );
+  background: linear-gradient(0deg, #0583f2 0%, rgba(89, 59, 116, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#400a6f", endColorstr="#593b74", GradientType=1);
+}
+
+.news-Slide-up:hover .newsCaption {
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.projectBox {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  display: block;
+  padding: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imgLogoProjects {
+  width: auto;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.btnOddi:hover {
+  color: #0583f2 !important;
+}
+
+.btnMaillard {
+  border-color: white !important;
+}
+
+.textIntContact {
+  background-color: #100459;
+  color: aliceblue;
+}
+
+.btnCalendly {
+  width: 150px;
+}
+
+.footer-heart {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-heart {
+  font-size: x-small;
+}
+
+.footer-heart a {
+  border-bottom: 1px solid #453886;
+  color: #453886;
+  text-decoration: none;
+  margin-top: auto;
+  text-align: center;
+}
+
+/* .footer-heart a:hover {
+  color: #2196f3;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: 0.3em;
+  text-decoration: none;
+} */
+
+blockquote {
+  border-left: none;
+}
+
+.quote-badge {
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.blockquote {
+  overflow: hidden;
+  background-color: #100459;
+  color: white;
+  box-shadow: 2px 2px 2px 2px #e0e0e0;
+  height: 80px;
+  align-items: center;
+  align-content: center;
+  line-height: 1.5;
+}

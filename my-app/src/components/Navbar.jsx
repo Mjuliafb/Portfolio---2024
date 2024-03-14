@@ -5,7 +5,7 @@ export const Navbar = () => {
     <div>
       {" "}
       <nav className="navbar navbar-expand-sm bg-body-tertiary">
-        <div className="container-fluid">
+        <div className="container">
           <a className="navbar-brand" href="#">
             🦩
           </a>
