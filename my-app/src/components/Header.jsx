@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/header.css";
-import fotoHeader from "../assets/fondoheader2.jpg";
+// import fotoHeader from "../assets/backgrounds/fondoheader2.jpg";
 
 export const Header = () => {
   return (
@@ -17,7 +17,7 @@ export const Header = () => {
                 <h2>
                   Hey! I'm <span> MJ</span>
                 </h2>
-                <h2>Full Stack student at 4Geeks Academy.</h2>
+                <h2>Frontend developer</h2>
               </div>
             </div>
           </div>
