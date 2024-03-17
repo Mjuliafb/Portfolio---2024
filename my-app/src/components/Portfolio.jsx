@@ -64,7 +64,7 @@ export const Portfolio = () => {
     },
     {
       id: 3,
-      href: "https://mjuliafb-instagram-photo-feed-with-bootstrap.vercel.app/",
+      href: "https://bold-easy-reader-7m9kycfxz.vercel.app/",
       title: "Bold easy reader",
       background: boldeasybg,
       description: "Text converter to improve readability and concentration",
@@ -93,7 +93,7 @@ export const Portfolio = () => {
     },
   ];
   return (
-    // TODO: Hacer map de cards
+    // TODO: hacer css para media query
     <section className="portfolio" id="portfolioSection">
       <div className="cardsPortfolio">
         <div className="container mb-4">
@@ -131,7 +131,7 @@ export const Portfolio = () => {
               </div>
             ))}
           </div>
-          <button className="btn btn-primary">Download CV</button>
+          {/* <button className="btn btn-primary">Download CV</button> */}
         </div>
       </div>
     </section>

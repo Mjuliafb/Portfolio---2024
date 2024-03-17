@@ -1,4 +1,6 @@
 import React from "react";
+import MJlogo from "../assets/logotypes/pinkflamingomj.png";
+import "../styles/navbar.css";
 
 export const Navbar = () => {
   return (
@@ -7,7 +9,7 @@ export const Navbar = () => {
       <nav className="navbar navbar-expand-sm bg-body-tertiary">
         <div className="container">
           <a className="navbar-brand" href="#">
-            🦩 MJ
+            {/* <img src={MJlogo}></img> */}🦩
           </a>
           <button
             className="navbar-toggler"

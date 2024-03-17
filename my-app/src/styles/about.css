@@ -1,0 +1,11 @@
+.imgParagraph {
+  width: 250px;
+  height: auto;
+  margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+  .aboutParagraph {
+    flex-direction: column;
+  }
+}

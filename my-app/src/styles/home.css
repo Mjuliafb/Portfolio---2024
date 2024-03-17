@@ -26,12 +26,6 @@
   height: 30px;
 }
 
-.imgParagraph {
-  width: 250px;
-  height: auto;
-  margin-right: 15px;
-}
-
 .pinkSpan {
   color: #f2059f;
   font-weight: 600;
@@ -181,8 +175,25 @@ figure img {
   color: aliceblue;
 }
 
+.btnContact {
+  background-color: #eceef1;
+  color: black;
+  margin-right: 15px;
+}
+
+.btnContact:hover {
+  background-color: #100459;
+  color: aliceblue;
+}
+
+.btn-primary:hover {
+  background-color: #100459;
+  color: aliceblue;
+}
+
 .btnCalendly {
   width: 90%;
+  background-color: #eceef1;
   margin-left: 20px;
 }
 
