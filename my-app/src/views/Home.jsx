@@ -2,12 +2,13 @@ import React from "react";
 import { Navbar } from "../components/Navbar";
 import { Header } from "../components/Header";
 import { About } from "../components/About";
-import { Technologies } from "../components/Technologies.jsx";
+import { Technologies } from "../components/Technologies";
 import { Portfolio } from "../components/Portfolio";
 import { Projects } from "../components/Projects";
 import { ContactData } from "../components/ContactData";
 import { Footer } from "../components/Footer";
 import "../styles/home.css";
+import { People } from "../components/People";
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
       <Technologies />
       <Portfolio />
       <Projects />
+      <People />
       <ContactData />
       <Footer />
     </div>

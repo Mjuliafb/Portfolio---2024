@@ -7,7 +7,7 @@ export const ContactData = () => {
         <h1> Contact</h1>
         <div className="textIntContact d-flex align-items-center text-center justify-content-center p-2 rounded-1 mb-2">
           <div>
-            <h4 className="w-100">
+            <h4 className="w-100 mt-1">
               🧃 Interested in working together? We should queue up a time to
               chat{" "}
             </h4>
@@ -16,7 +16,7 @@ export const ContactData = () => {
             <a
               href="https://calendly.com/mjuliafb/collaborations"
               target="_blank"
-              className="btn btnCalendly btn-light rounded-1 ml-3 flex-shrink-1"
+              className="btn btnCalendly rounded-5 ml-3 flex-shrink-1"
               type="button"
             >
               <i
@@ -31,7 +31,7 @@ export const ContactData = () => {
           <a
             href="https://www.linkedin.com/in/mjfbalice/"
             target="_blank"
-            className="btn btn-light rounded-5"
+            className="btn btnContact rounded-5"
             type="button"
           >
             <i
@@ -42,7 +42,7 @@ export const ContactData = () => {
           <a
             href="https://github.com/Mjuliafb"
             target="_blank"
-            className="btn btn-light rounded-5"
+            className="btn btnContact rounded-5"
             type="button"
           >
             <i className="fa-brands fa-github" style={{ color: "#f2059f" }}></i>
@@ -50,7 +50,7 @@ export const ContactData = () => {
           <a
             href="mailto:mjuliafb@gmail.com?subject=Let's Collaborate!&body=Hello! Nice portfolio 🦩, This is my proposal:"
             target="_blank"
-            className="btn btn-light rounded-5"
+            className="btn btnContact rounded-5"
             type="button"
           >
             <i
@@ -62,7 +62,7 @@ export const ContactData = () => {
           <a
             href="https://maps.app.goo.gl/BajrnFcyj5xXKW7KA"
             target="_blank"
-            className="btn btn-light rounded-5"
+            className="btn btnContact rounded-5"
             type="button"
           >
             <i className="fa-solid fa-map-pin" style={{ color: "#f2059f" }}></i>{" "}

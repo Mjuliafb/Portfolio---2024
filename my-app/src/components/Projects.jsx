@@ -29,7 +29,7 @@ export const Projects = () => {
         <h1>Projects</h1>
         <div className="row">
           {projects.map((item, index) => (
-            <div className="col-sm-6 mt-2 mb-3 mb-sm-0">
+            <div key={item.id} className="col-sm-6 mt-2 mb-3 mb-sm-0">
               <div className="card">
                 <div className="card-body text-center">
                   <img className="imgLogoProjects" src={item.logosrc} />

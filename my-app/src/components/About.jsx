@@ -1,5 +1,6 @@
 import React from "react";
 import MJphoto from "../assets/photos/fotomj2.jpeg";
+import "../styles/about.css";
 
 export const About = () => {
   return (
@@ -24,15 +25,15 @@ export const About = () => {
 
             <p>
               {" "}
-              Working in a large-scale company sparked my interest in digital
-              health, bridging my passions. I pursued a master's degree in
+              Working at a large-scale company sparked my interest in digital
+              health, bridging my passions. I pursued a Master's Degree in
               digital health and ventured into full-stack development. Now, I'm
               eager to contribute to the digital transformation, especially in
-              healthcare, expanding my skill set, and explore new opportunities.
-              🎯{" "}
+              healthcare, expanding my skillset, and to explore new
+              opportunities. 🎯{" "}
             </p>
 
-            <p>
+            {/* <p>
               {" "}
               I'm a dynamic programmer driven by the intersection of art and
               science. With a background in dentistry and a passion for digital
@@ -42,11 +43,17 @@ export const About = () => {
               full-stack development. Now, I'm eager to contribute to the
               digital transformation, especially in healthcare, expanding my
               skill set, and explore new opportunities.
-            </p>
+            </p> */}
           </div>
         </div>
         <div>
-          <button className="btn btn-primary">Download CV</button>
+          <a
+            href="https://drive.google.com/file/d/1F5-FOdlRzv-RZONcM9mEGFh1Zij8IIaG/view?usp=sharing"
+            target="_blank"
+            className="btn btn-primary rounded-5"
+          >
+            Download CV
+          </a>
         </div>
         {/* <!--quote nuevo comienza aqui --> */}
         <figure className="quoteFlamenco text-center mt-4 mb-0">
